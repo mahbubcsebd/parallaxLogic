@@ -1,0 +1,159 @@
+@media screen and (max-width: 1024px) {
+    .user-img-box {
+        height: 300px;
+    }
+
+    .user-name {
+        font-size: 45px;
+        line-height: 55px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .filter-name {
+        font-size: 22px;
+    }
+
+    .user-name {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .user-info-left {
+        width: 40%;
+        padding-right: 30px;
+    }
+
+    .user-info-right {
+        width: 55%;
+        padding-left: 10px;
+    }
+
+    .user-main-info {
+        margin-bottom: 18px;
+    }
+
+    .user-contact-information ul li {
+        line-height: 40px;
+        font-size: 16px;
+    }
+
+    .user-contact-information ul li p {
+        min-width: 100px;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .search-bar {
+        padding: 12px;
+    }
+
+    .search-form {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .submit-btn {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+
+    .search-bar {
+        font-size: 16px;
+    }
+
+    .single-content {
+        flex-basis: 48%;
+    }
+
+    .user-name {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .user-img-box {
+        height: 280px;
+    }
+
+    .work-company {
+        font-size: 21px;
+        line-height: 33px;
+        margin-bottom: 10px;
+        color: var(--primaryColor);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #user-info .row {
+        display: block;
+    }
+
+    .user-img-box {
+        height: auto;
+        width: 50%;
+    }
+
+    .user-info-left {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 25px;
+    }
+
+    .user-info-right {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .divider {
+        margin-bottom: 7px;
+    }
+
+    .work-company {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .user-name {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    section {
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .user-img-box {
+        width: auto;
+    }
+
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .single-content {
+        flex-basis: 100%;
+        margin-right: 0;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    .user-name {
+        font-size: 32px;
+        line-height: 50px;
+    }
+
+    .user-img-box {
+        width: auto;
+    }
+
+    .user-contact-information ul li p {
+        min-width: 90px;
+        font-weight: 700;
+    }
+}
