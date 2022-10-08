@@ -23,3 +23,6 @@ const searchFun = (event) => {
 const form = document.getElementById('search-form');
 
 form.addEventListener('submit', searchFun);
+
+
+// if you want to search via keyup listeners please comment out line number 2 & 25 on main.js file, also add onkeyup="searchFun()" at input tag on index.html file

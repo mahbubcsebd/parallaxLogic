@@ -13,6 +13,8 @@
 html,
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #212121;
+  color: #fff;
 }
 
 h1,
@@ -37,11 +39,6 @@ a {
 p {
   font-size: 16px;
   line-height: 25px;
-}
-
-body {
-  background-color: #2a2a2a;
-  color: #fff;
 }
 
 img {
@@ -93,6 +90,11 @@ section {
   position: absolute;
   height: 100%;
   right: 0;
+}
+
+.search-icon {
+  display: inline-block;
+  margin-right: 5px;
 }
 
 /* Search Form End */
